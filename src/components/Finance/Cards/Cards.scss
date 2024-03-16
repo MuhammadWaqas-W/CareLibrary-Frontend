@@ -1,0 +1,61 @@
+.wrap-finance-cards{
+    .finance-top-cards-style{
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    }
+.finance-cards{
+    // display: flex !important;
+    // justify-content: space-between !important;
+    // align-items: center !important;   
+
+}
+.finance-card-style{
+width: 289.1px;
+height: 97px;
+border-radius: 10px;
+.ant-card-body{
+    padding: 12px !important;
+}
+}
+
+
+.wrap-finance-label-img{
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+}
+.finance-card-price{
+display: flex;   
+font-weight: 600;
+font-size: 32px;
+position: absolute;
+top: 10px;
+margin-left: 1px;
+}
+.ant-card .ant-card-head {
+border-bottom: none !important;
+min-height: 50px !important;  
+}
+}
+
+@media only screen and (max-width: 366px) {
+    .wrap-finance-cards .finance-card-style{
+        height: 130px !important;
+         width: 250px;
+    }
+    }
+    @media only screen and (max-width: 300px) {
+        .finance-card-text-price{
+                     font-weight: 500;
+                     font-size: 14px;
+                }.finance-card-img{
+                    margin: 8px 0px 6px 0px;
+                } 
+        }
+        @media only screen and (max-width: 322px) {
+            .wrap-finance-cards .finance-card-style{
+                height: 130px !important;
+                 width: 200px;
+            }
+            }
